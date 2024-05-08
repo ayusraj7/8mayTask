@@ -40,9 +40,9 @@ const Features = () => {
             </div>
             
         </div>
-        <div className='px-[10%] mt-[80px] flex justify-between items-center gap-10'>
+        <div className='px-[10%] mt-[80px] flex flex-col sm:flex-row justify-between items-center gap-10'>
             <img src={girl} alt="girl"  className='md:w-[30%] h-[400px]'/>
-            <div className='w-[50%] flex flex-col gap-9'>
+            <div className='sm:w-[50%] flex flex-col gap-9'>
                 <div>
                     <p className='text-[rgb(81,204,143)] text-sm'>About Us</p>
                     <h1 className='text-black text-3xl font-semibold'>One Platform,plenty benefits</h1>
